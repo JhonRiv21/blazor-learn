@@ -77,3 +77,4 @@ c:\Users\J1\p1-blazor\BlazorApp1\obj\Debug\net9.0\refint\BlazorApp1.dll
 c:\Users\J1\p1-blazor\BlazorApp1\obj\Debug\net9.0\BlazorApp1.pdb
 c:\Users\J1\p1-blazor\BlazorApp1\obj\Debug\net9.0\BlazorApp1.genruntimeconfig.cache
 c:\Users\J1\p1-blazor\BlazorApp1\obj\Debug\net9.0\ref\BlazorApp1.dll
+c:\Users\J1\p1-blazor\BlazorApp1\obj\Debug\net9.0\BlazorApp1.sourcelink.json

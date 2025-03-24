@@ -14,20 +14,28 @@
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
-            @foreach (var link in allLinks)
-            {
-                <NavLink class="nav-link" href="@link.ToLower()">
-                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> @link
-                </NavLink>
-            }
-        </div>
+        @foreach (var Link in allLinks)
+        {
+            <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="@Link.Name.ToLower()">
+                        <span class="@Link.Icon" aria-hidden="true"></span> @Link.Name
+                    </NavLink>
+            </div>
+        }
     </nav>
 </div>
 
 @code {
 
-    string[] allLinks = new[] { "Counter", "Weather" };
-    
+    public class Link
+    {
+        public required string Name { get; set; }
+        public required string Icon { get; set; }
+    }
 
+    Link[] allLinks = new[]
+    {
+        new Link { Name = "Counter", Icon = "bi bi-plus-square-fill-nav-menu" },
+        new Link { Name = "Weather", Icon = "bi bi-list-nested-nav-menu" },
+    };
 }
