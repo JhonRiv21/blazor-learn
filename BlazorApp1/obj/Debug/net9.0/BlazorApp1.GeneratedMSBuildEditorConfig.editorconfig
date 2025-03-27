@@ -32,8 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/J1/p1-blazor/BlazorApp1/Components/Pages/Fibonacci.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGaWJvbmFjY2kucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/J1/p1-blazor/BlazorApp1/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/J1/p1-blazor/BlazorApp1/Components/Pages/Table.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/J1/p1-blazor/BlazorApp1/Components/Pages/Weather.razor]

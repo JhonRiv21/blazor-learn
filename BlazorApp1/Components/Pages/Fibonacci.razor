@@ -1,0 +1,31 @@
+@page "/fibonacci"
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+
+<PageTitle>Fibonacci</PageTitle>
+
+<h1>Fibonacci</h1>
+
+<p>This component demonstrates Fibonacci method.</p>
+
+<input type="number" @bind-value="@insert" bind-value:event="oninput" />
+<p>Result: @result</p>
+<button @onclick="CalculateFibonacci">Calculate Fibonacci</button>
+
+@code {
+    private int result;
+    private int insert = 0;
+
+    private void CalculateFibonacci()
+    {
+        result = FibonacciCalc(insert);
+        StateHasChanged();
+    }
+
+    private int FibonacciCalc(int n)
+    {
+        Console.WriteLine(insert);
+        if (n <= 1) return n;
+        return FibonacciCalc(n - 1) + FibonacciCalc(n - 2);
+    }
+}
